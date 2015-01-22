@@ -1,0 +1,40 @@
+.blank {
+	float: left;
+	width: 20px;
+	height: 20px;
+	border: 1px white solid;
+	padding: 0;
+	margin: 0;
+}
+
+.snake {
+	float: left;
+	width: 20px;
+	height: 20px;
+	border: 1px white solid;
+	background-color: blue;
+	padding: 0;
+	margin: 0;
+}
+
+.food {
+	float: left;
+	width: 20px;
+	height: 20px;
+	border: 1px white solid;
+	background-color: red;
+	padding: 0;
+	margin: 0;
+}
+
+#snake-game {
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px black solid;
+}
+
+br {
+	padding: 0;
+	margin: 0;
+	line-height: 0;
+}
