@@ -119,7 +119,6 @@ function movementAction(nextHead, oldTail) {
 // move every tile in the snake
 // each tile takes the location of the one preceding it
 function moveSnake() {
-	console.log(snaketiles[snaketiles.length-1]);
 	// next head tile
 	var nextHead = snaketiles[0];
 	
@@ -160,13 +159,9 @@ function moveSnake() {
 	// move all snaketiles to the location of the snaketile preceding it
 	for (i=snaketiles.length-1; i>0; i--) {
 		snaketiles[i] = snaketiles[i-1];
-		console.log("move segment" + i);
 	}
-		
 	// update gametiles with new head info
-	movementAction(nextHead, oldTail);
-	
-	
+	movementAction(nextHead, oldTail);	
 }
 
 
